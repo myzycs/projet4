@@ -1,0 +1,9 @@
+label{
+		display:block;
+		width:150px;
+		float:left;
+}
+
+label textarea {
+	height: 80px;
+}
