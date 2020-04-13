@@ -1,0 +1,144 @@
+body
+{	
+	margin:0;
+	padding:0;
+	/* Permet a l'image de rester centrée quelque soit la taille de l'écran*/
+	background:url(../images/alaska.jpg)no-repeat center fixed;
+	background-size: cover;
+}
+
+label textarea 
+{
+	height: 80px;
+}
+
+header h1 
+{
+	text-align: center;
+	margin: 1rem;
+	color: white;
+}
+
+header h2
+{
+	text-align: center;
+	color: white;
+}
+
+#titre h3
+{
+	text-align: center;
+	color: white;	
+}
+
+#AdminTitre h3
+{
+	text-align: center;
+	color: white;
+	background-color: red; 	
+}
+
+nav 
+{
+	/* effet de transparence */
+	background-color: #28a745!important;
+}
+
+.nav-link
+{
+	position: relative;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+}
+
+.nav-link:visited
+{
+	text-decoration: none;
+}
+
+.nav-link:before 
+{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before 
+{
+	color: white;
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.nav-link:hover
+{
+	color: white;
+}
+
+.jumbotron 
+{
+	margin: 2% 30% 0px 30%;
+}
+.jumbotron p
+{
+	text-align: left;
+}
+
+.jumbotron form p
+{
+	text-align: center;
+}
+
+nav .icone 
+{
+	margin: 0 5px 0 5px;
+}
+
+.adminNav
+{
+	float: right;
+
+}
+.adminNav a 
+{
+	color: #e3e3e3;
+}
+
+.publier 
+{
+	color: white;
+}
+
+.mmodifform
+{
+	color: white;
+}
+
+.lastPosts
+{
+	color: white;
+	text-align: center;
+	font-size: 1.75em;
+}
+
+#interfaceLink a
+{	
+    margin: 10px 1px 1px 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+#commentAuthor
+{
+    background-color: yellowgreen;
+}
